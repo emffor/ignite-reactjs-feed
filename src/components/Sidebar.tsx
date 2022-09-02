@@ -2,17 +2,6 @@ import styles from './Sidebar.module.css';
 
 export function Sidebar() {
     return (
-        <aside>
-            <h1>Sidebar</h1>
-        </aside>
-    );
-}
-
-
-
-
-/* export function Sidebar() {
-    return (
         <aside className={styles.sidebar}>
             <img
                 className={styles.cover}
@@ -32,4 +21,8 @@ export function Sidebar() {
             </footer>
         </aside>
     );
-} */
+}
+
+
+
+

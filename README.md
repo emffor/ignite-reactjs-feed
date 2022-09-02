@@ -1,1 +1,1 @@
-Fundamentos do React JS Ignite Trila - 2022
+Fundamentos do React JS Ignite Trilha - 2022
