@@ -1,3 +1,5 @@
+import { Avatar } from './Avatar';
+
 import styles from './Sidebar.module.css';
 
 export function Sidebar() {
@@ -5,12 +7,13 @@ export function Sidebar() {
         <aside className={styles.sidebar}>
             <img
                 className={styles.cover}
-                src="https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__480.jpg"
+                src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=50"
             />
 
             <div className={styles.profile}>
-                <img className={styles.avatar} src="https://avatars.githubusercontent.com/u/98027423?v=4" />
-                <strong>Eloan Ferreira</strong>
+                <Avatar src="https://avatars.githubusercontent.com/u/98027423?v=4" />
+
+                <strong>Diego Fernandes</strong>
                 <span>Web Developer</span>
             </div>
 
@@ -22,7 +25,3 @@ export function Sidebar() {
         </aside>
     );
 }
-
-
-
-
