@@ -1,12 +1,12 @@
 .wrapper {
-  max-width: 70rem; 
-  margin: 2rem auto; 
-  padding: 0 1rem; 
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
 
-  display: grid; 
-  grid-template-columns: 256px 1fr; /* primeira columns tem um tamanho fixo e a segunda vai se adaptar o quanto couber na tela */
-  gap: 2rem; /* espaçamento entre as colunas */
-  align-items: flex-start; /* faz com que sempre fiquem alinhados no topo */
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+  align-items: flex-start;
 }
 
 @media (max-width: 768px) {

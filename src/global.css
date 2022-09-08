@@ -19,18 +19,16 @@
   box-shadow: 0 0 0 2px var(--green-500);
 }
 
-/* Remove padding, margin and set box-sizing(Faz com que esprema o elemento pra dentro)*/
-
 * {
-  margin: 0;  
+  margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Espreme o elemento pra dentro */
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--gray-900); /* cor de fundo padrão */
-  color: var(--gray-300); /* cor de texto padrão */
-  -webkit-font-smoothing: antialiased; /* melhora a qualidade do texto(ficam mais detalhadas) */
+  background: var(--gray-900);
+  color: var(--gray-300);
+  -webkit-font-smoothing: antialiased;
 }
 
 body, input, textarea, button {
